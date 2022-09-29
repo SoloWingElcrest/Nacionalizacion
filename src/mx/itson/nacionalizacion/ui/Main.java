@@ -1,5 +1,5 @@
 
-package mx.itson.nacionalizandoALasTwice;
+package mx.itson.nacionalizacion.ui;
 
 /**
  *Centra y le da titulo a la interfaz

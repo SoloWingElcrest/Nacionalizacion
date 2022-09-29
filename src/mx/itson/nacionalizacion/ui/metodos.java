@@ -1,5 +1,5 @@
 
-package mx.itson.nacionalizandoALasTwice;
+package mx.itson.nacionalizacion.ui;
 
 import java.awt.event.KeyEvent;
 import static java.lang.Math.random;
