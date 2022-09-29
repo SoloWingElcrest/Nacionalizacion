@@ -43,7 +43,7 @@ public class metodos {
    
 /**
  * 
- * @param radio Guarda el valor del sexo
+ * @param radio Obtiene el valor del sexo
  */
        public void getSexo(String radio){
            sexo = radio;
@@ -51,7 +51,7 @@ public class metodos {
        }
        /**
         * 
-        * @param boxEstado Guarda el valor seleccionado del estado
+        * @param boxEstado Obtiene el valor seleccionado del estado
         */
        public void getEstado(String boxEstado){
            estado = boxEstado;
@@ -59,9 +59,9 @@ public class metodos {
        
   /**
    * 
-   * @param a Guarda los datos del nombre
-   * @param b Guarda los datos del apellido
-   * @param c Guarda los datos del año
+   * @param a Obtiene los datos del nombre
+   * @param b Obtiene los datos del apellido
+   * @param c Obtiene los datos del año
    */
        public void getNombre(String a, String b, String c){
            
