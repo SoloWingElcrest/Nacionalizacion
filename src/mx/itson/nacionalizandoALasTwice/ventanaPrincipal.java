@@ -35,7 +35,7 @@ public class ventanaPrincipal extends javax.swing.JFrame {
         jSpinner1 = new javax.swing.JSpinner();
         btngSexo = new javax.swing.ButtonGroup();
         jLabel1 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        btnGenerar = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         rdMujer = new javax.swing.JRadioButton();
@@ -61,10 +61,10 @@ public class ventanaPrincipal extends javax.swing.JFrame {
 
         jLabel1.setText("CONSULTA CURP");
 
-        jButton1.setText("Generar");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btnGenerar.setText("Generar");
+        btnGenerar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btnGenerarActionPerformed(evt);
             }
         });
 
@@ -264,7 +264,7 @@ public class ventanaPrincipal extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(btnSalir)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton1))
+                        .addComponent(btnGenerar))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -294,14 +294,14 @@ public class ventanaPrincipal extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnSalir)
-                    .addComponent(jButton1))
+                    .addComponent(btnGenerar))
                 .addGap(62, 62, 62))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btnGenerarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGenerarActionPerformed
         /**
          * Llama a los metodos
          */
@@ -319,7 +319,7 @@ public class ventanaPrincipal extends javax.swing.JFrame {
         {JOptionPane.showMessageDialog(rootPane, "Ingrese los datos correctamente","ERROR",ERROR_MESSAGE);
         }
         
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_btnGenerarActionPerformed
 
     private void rdMujerMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_rdMujerMouseClicked
         // Acción de radio button Mujer
@@ -382,9 +382,9 @@ public class ventanaPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public static javax.swing.JComboBox<String> boxEstado;
+    private javax.swing.JButton btnGenerar;
     private javax.swing.JButton btnSalir;
     public static javax.swing.ButtonGroup btngSexo;
-    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
