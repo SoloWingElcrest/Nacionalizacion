@@ -29,9 +29,9 @@ public class metodos {
        String d2 = "";
        
        /**
-        * @param a Convierte el día en una string 
-        * @param b Convierte el mes en una string
-        * @param c Convierte el año en una string
+        * @param a Obtiene los datos del dia para la fecha
+        * @param b Obtiene los datos del mes para la fecha
+        * @param c Obtiene los datos del año para la fecha
         */
        public void getFecha(String a, String b, String c){
            
@@ -43,7 +43,7 @@ public class metodos {
    
 /**
  * 
- * @param radio Obtiene el valor del sexo
+ * @param radio Obtiene los datos del sexo
  */
        public void getSexo(String radio){
            sexo = radio;
@@ -51,7 +51,7 @@ public class metodos {
        }
        /**
         * 
-        * @param boxEstado Obtiene el valor seleccionado del estado
+        * @param boxEstado Obtiene los datos seleccionados en el ComboBox para el estado 
         */
        public void getEstado(String boxEstado){
            estado = boxEstado;
@@ -61,7 +61,7 @@ public class metodos {
    * 
    * @param a Obtiene los datos del nombre
    * @param b Obtiene los datos del apellido
-   * @param c Obtiene los datos del año
+   * @param c Obtiene los datos del apellido materno
    */
        public void getNombre(String a, String b, String c){
            
@@ -78,7 +78,7 @@ public class metodos {
             /**
              * Busca la primera vocal del apellido paterno
              */
-           char p1 = apellidoPaterno.charAt(0); //Primer caracter del apellido 
+           char p1 = apellidoPaterno.charAt(0); 
            char p2 = 0;
            for (int i = 1; i < apellidoPaterno.length(); i++){
                 char l = apellidoPaterno.charAt(i);
@@ -90,7 +90,7 @@ public class metodos {
                 }
        }
            /**
-            * Delcara las variables dentro de caracteres
+            * Declara las variables dentro de caracteres
             */
            char p3 = apellidoMaterno.charAt(0);
            char p4 = nombre.charAt(0);
@@ -194,7 +194,7 @@ public class metodos {
         char p18 = (char) (random.nextInt(1) + '1');
         
         /**
-         * Genera una ventana donde se mostrará el curp
+         * Genera una ventana donde se mostrará el CURP
          */
         
            JOptionPane.showMessageDialog(null,p1+""+p2+""+p3+""+p4+""+p5+""+p6+""+p7+""+p8+""+p9+""+p10+""+p11+""+p12+""+p13+""+p14+""+p15+""+p16+""+""+p17+""+p18,"CURP",INFORMATION_MESSAGE);
